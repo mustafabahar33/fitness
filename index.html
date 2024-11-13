@@ -80,16 +80,58 @@
     </section>
 
 
-    <section class="blog-content">
+    <section class="blog-content mt-5">
         <div class="container">
-            <div class="blog-content-card">
-                <div class="blog-content-card-info">
-
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="blog-content-card">
+                            <div class="blog-content-card-info">
+                                <span>Başlık</span>
+                                <span>Burada konu hakkında bilgi yer alacak. Burada konu hakkında bilgi yer alacak. Burada konu
+                                    hakkında bilgi yer alacak. Burada konu hakkında bilgi yer alacak.Burada konu hakkında bilgi yer
+                                    alacak.Burada konu hakkında bilgi yer alacak.</span>
+                            </div>
+                            <div class="blog-content-card-img">
+                                <img src="assets/img/team/ant1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="blog-content-card">
+                            <div class="blog-content-card-info">
+                                <span>Başlık</span>
+                                <span>Burada konu hakkında bilgi yer alacak. Burada konu hakkında bilgi yer alacak. Burada konu
+                                    hakkında bilgi yer alacak. Burada konu hakkında bilgi yer alacak.Burada konu hakkında bilgi yer
+                                    alacak.Burada konu hakkında bilgi yer alacak.</span>
+                            </div>
+                            <div class="blog-content-card-img">
+                                <img src="assets/img/team/ant1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="blog-content-card-img">
-                    <img src="" alt="">
-                </div>
+                <div class="swiper-pagination"></div>
             </div>
+            <script>
+                var swiper = new Swiper(".mySwiper", {
+                    pagination: {
+                        el: ".swiper-pagination",
+                        dynamicBullets: true,
+                    },
+                    autoplay: {
+                        delay: 2500,
+                        disableOnInteraction: false,
+                    },
+                });
+            </script>
+
+
+
+
+
+
+            
         </div>
     </section>
 
